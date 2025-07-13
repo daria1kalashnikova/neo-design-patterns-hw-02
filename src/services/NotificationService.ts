@@ -11,16 +11,4 @@ export class NotificationService implements INotificationService {
   notify(user: User, message: string): void {
     this.channels.forEach((channel) => channel.send(user, message));
   }
-
-  sendEmail(user: User, message: string): void {
-    this.notify(user, message);
-  }
-
-  sendSMS(user: User, message: string): void {
-    this.notify(user, message);
-  }
-
-  sendPush(user: User, message: string): void {
-    this.notify(user, message);
-  }
 }
