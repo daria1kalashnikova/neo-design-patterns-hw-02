@@ -1,0 +1,25 @@
+{
+  "name": "neo-design-patterns-hw-02",
+  "version": "1.0.0",
+  "description": "Task is to refactor the architecture according to SOLID principles and implement a messaging system that is scalable, maintainable, and modular.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daria1kalashnikova/neo-design-patterns-hw-02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daria1kalashnikova/neo-design-patterns-hw-02/issues"
+  },
+  "homepage": "https://github.com/daria1kalashnikova/neo-design-patterns-hw-02#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
